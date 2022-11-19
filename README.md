@@ -34,3 +34,4 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshots of finished and deployed webpage
 - Deployed desktop webpage 
+![alt text](/Assets/Example%20of%20functioning%20webpage.gif)

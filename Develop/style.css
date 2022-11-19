@@ -2,12 +2,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
-
+/*This gives our header the background color and bottom border*/
 .header {
   background-color: rgb(164, 188, 203);
   border-bottom: 10px solid #000;
 }
-
+/*This styles our clear button in the header*/
 .clear-button {
   display: block;
   margin-left: auto;
@@ -23,12 +23,12 @@ body {
   border: 3px solid #000;
   box-shadow: #000 0px 1px 6px 0px #000 0px 1px 1px 0px;
 }
-
+/*This styles the clear button on hover*/
 .clear-button:hover {
   color: #06aed5;
   background-color: #000;
 }
-
+/*Text area styling for when there is no set class*/
 textarea {
   background: transparent;
   border: none;
@@ -46,32 +46,32 @@ textarea {
   border-radius: 15px;
   background-color: #8fbec8;
 }
-
+/*This adds a border between the time event boxes*/
 .row {
   border-top: 1px solid white;
 }
-
+/*This styles the hour box on each row*/
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
-
+/*This is the coloring for past events*/
 .past {
   background-color: #d3d3d3;
   color: #000;
 }
-
+/*This is the coloring for present event*/
 .present {
   background-color: #ff6961;
   color: white;
 }
-
+/*This is the coloring for future events*/
 .future {
   background-color: #77dd77;
   color: #000;
 }
-
+/*This styles our save buttons*/
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -79,7 +79,7 @@ textarea {
   background-color: #06aed5;
   color: white;
 }
-
+/*This styles our save buttons on hover*/
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
