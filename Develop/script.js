@@ -30,6 +30,7 @@ $(".saveBtn").on("click", function () {
     localStorage.setItem("event" + saved, text)
 
 })
+//if you add another time block div in the HTML be sure to change the 18 below to keep it within the rules. If you add one timeblock then change it to 19, if you add 2 change it to 20, etc.
 for (var i = 9; i <= 18; i++) {
   var savedEvent = localStorage.getItem("event" + (i));
   if (savedEvent !== null) {
