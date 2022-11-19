@@ -21,6 +21,7 @@ A webpage that helps you plan out your work day. It follows standard business ho
 
 - Starter code provided by <i>George</i>, github profile link: [https://github.com/Georgeyoo]
  - Starter code repo link: [https://github.com/coding-boot-camp/crispy-octo-meme]
+ - Button data attibute tutorial: [https://www.dofactory.com/html/button/data]
 
 ## License
 
